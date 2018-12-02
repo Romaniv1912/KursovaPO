@@ -1,0 +1,6 @@
+C:\Users\Андрій\Desktop\SimulationCityProject\SimulationCityProject\bin\Debug\SimulationCityProject.exe.config
+C:\Users\Андрій\Desktop\SimulationCityProject\SimulationCityProject\bin\Debug\SimulationCityProject.exe
+C:\Users\Андрій\Desktop\SimulationCityProject\SimulationCityProject\bin\Debug\SimulationCityProject.pdb
+C:\Users\Андрій\Desktop\SimulationCityProject\SimulationCityProject\obj\Debug\SimulationCityProject.csprojResolveAssemblyReference.cache
+C:\Users\Андрій\Desktop\SimulationCityProject\SimulationCityProject\obj\Debug\SimulationCityProject.exe
+C:\Users\Андрій\Desktop\SimulationCityProject\SimulationCityProject\obj\Debug\SimulationCityProject.pdb

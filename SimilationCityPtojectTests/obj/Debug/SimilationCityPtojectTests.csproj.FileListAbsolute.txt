@@ -1,0 +1,8 @@
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\bin\Debug\SimilationCityPtojectTests.dll
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\bin\Debug\SimilationCityPtojectTests.pdb
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\bin\Debug\SimulationCityProject.exe
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\bin\Debug\SimulationCityProject.pdb
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\obj\Debug\SimilationCityPtojectTests.csprojResolveAssemblyReference.cache
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\obj\Debug\SimilationCityPtojectTests.dll
+C:\Users\Андрій\Desktop\SimulationCityProject\SimilationCityPtojectTests\obj\Debug\SimilationCityPtojectTests.pdb
