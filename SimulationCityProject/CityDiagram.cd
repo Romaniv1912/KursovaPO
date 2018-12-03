@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimulationCityProject.Card">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAABEAAAAAEgAAAAAAAAAAAAIAAAAAAAAAEAiA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.Director">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAABAAAABAAAAACAAAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.House">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.Account">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAAAAlgEgAAAQAAAAAAIACAIAQAAAIAiA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.HouseBuilder">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAEAgQAgAAAAQAAAAIAAAAAQAAAAAAAAACAAAA=</HashCode>
+      <FileName>HouseBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimulationCityProject.HousePlane">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBAAAAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>HousePlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.Person">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAACAAEAEAAIAQACAAEAAAAgAAAAgACEAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.PlaneBuilder">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAEAgQAkBAIAQAAAAIAAAAAQgAAAAAAAACACAA=</HashCode>
+      <FileName>PlaneBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimulationCityProject.Proxy">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQEAABAAAAAAAABAQIAAAAEAAAAAAYQQAEAAAAg=</HashCode>
+      <FileName>Proxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimulationCityProject.RealBank">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIQQAEAAAEg=</HashCode>
+      <FileName>RealBank.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimulationCityProject.RealEastateAgency">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgQAACAAAQAKAQAAAAAAAACAABAAAAgAAAAgACEAA=</HashCode>
+      <FileName>RealEastateAgency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.RockHouseBuilder">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RockHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.RockPlaneHouseBuilder">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RockHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.WoodHouseBuilder">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="SimulationCityProject.HouseBuilder" FixedFromPoint="true">
+      <Path>
+        <Point X="1.5" Y="3.786" />
+        <Point X="1.5" Y="4.116" />
+        <Point X="2.5" Y="4.116" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WoodHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulationCityProject.WoodPlaneHouseBuilder">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WoodHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SimulationCityProject.Bank">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIQQAEAAAAg=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimulationCityProject.Builder">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAQAgAAAAQAAAAIAAAAAQAAAAAAAAACAAAA=</HashCode>
+      <FileName>Builder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

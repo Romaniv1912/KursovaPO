@@ -87,8 +87,10 @@ namespace SimulationCityProject
         {
             if (this.ShowLogs)
                 Console.WriteLine(DateTime.Today.ToString() + ": Регистрация пользователя " + name + ".");
-            if (age > AGE_LIMIT && !name.Equals("") && !login.Equals("") && !password.Equals(""))
+            if ( !name.Equals("") && !login.Equals("") && !password.Equals(""))
             {
+                if (!isCompany && age < AGE_LIMIT)
+                    goto here;
                 if (this.bank.registration(name, login, password, isCompany, age))
                 {
                     if (this.ShowLogs)
@@ -96,6 +98,7 @@ namespace SimulationCityProject
                     return true;
                 }
             }
+       here:
             if (this.ShowLogs)
                 Console.WriteLine(DateTime.Today.ToString() + ": Регистрация не удалась!");
             return false;

@@ -97,5 +97,33 @@ namespace SimulationCityProject.Tests
                 Assert.IsTrue(false);
             Assert.IsTrue(pr.cashOut(crd1, pinKOD1, 8000) > 0 ? true: false);
         }
+
+        /// <summary>
+        /// Проверяет работу <see cref="Builder"/> & <see cref="WoodPlaneHouseBuilder"/>.
+        /// </summary>
+        [TestMethod]
+        public void CheckPlaneBuilder()
+        {
+            WoodPlaneHouseBuilder wdPl = new WoodPlaneHouseBuilder();
+            wdPl.createFloor();
+            wdPl.createWalls(4);
+            wdPl.createWindows(4);
+            wdPl.createDoors(1);
+            wdPl.createRoof();
+            HousePlane actual = wdPl.getResult() as HousePlane;
+            int expected = wdPl.PRICE_DOOR + wdPl.PRICE_FLOOR + wdPl.PRICE_ROOF + wdPl.PRICE_WALL * 4 + wdPl.PRICE_WINDOW * 4;
+            Assert.AreEqual(expected, actual.getPrice());
+        }
+
+        [TestMethod]
+        public void CheckShopBuy()
+        {
+            CheckTransfer();
+            RealEastateAgency ra = new RealEastateAgency("comp", pr);
+            pr.cashIn(crd1, 5000);
+            ra.selectType(1);
+            ra.selectHouse(1);
+            Assert.IsNotNull(ra.buy(crd1, pinKOD1));
+        }
     }
 }
