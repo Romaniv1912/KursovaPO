@@ -32,15 +32,15 @@ namespace SimulationCityProject
             get; protected set;
         }
 
+        public Card Card {
+            get { return card; }
+        }
+
+
         /// <summary>
         /// Карта человека.
         /// </summary>
         protected Card card;
-
-        /// <summary>
-        /// Анагство по недвижымости.
-        /// </summary>
-        protected RealEastateAgency shop;
 
 
         /// <summary>
@@ -74,7 +74,7 @@ namespace SimulationCityProject
             this.Name = name;
             Random rnd = new Random();
             this.login = rnd.Next(10000, 100000).ToString();
-            this.pinKOD = rnd.Next(10000, 100000).ToString();
+            this.password = rnd.Next(10000, 100000).ToString();
             this.Age = age;
         }
 
@@ -93,9 +93,9 @@ namespace SimulationCityProject
         /// <summary>
         /// Покупка дома.
         /// </summary>
-        public bool buyHouse()
+        public bool buyHouse(RealEastateAgency shop)
         {
-            if (house != null && card != null)
+            if (house == null && !card.Equals(null))
             {
                 Random rnd = new Random();
                 shop.selectType(rnd.Next(0, 2));
@@ -113,7 +113,7 @@ namespace SimulationCityProject
         public override string ToString()
         {
             return "\tName: " + Name + "\tage: " + Age + "\tCard: " + 
-                (card == null ? "NoN" : card.CardNumber) + 
+                (card.Equals(null) ? "NoN" : card.CardNumber.ToString()) + 
                 (house == null ? "\t House: NoN": "\nHouse:\n"+ house.ToString());
         }
     }
